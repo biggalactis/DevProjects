@@ -108,7 +108,7 @@
         app:layout_constraintGuide_percent="0.5" />
 
     <ImageView
-        android:id="@+id/imageView18"
+        android:id="@+id/data1"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
@@ -144,10 +144,19 @@
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="16:9"
-        app:layout_constraintEnd_toEndOf="@+id/imageView18"
+        app:layout_constraintEnd_toEndOf="@+id/data1"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView18"
+        app:layout_constraintTop_toBottomOf="@+id/data1"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/videosimage" />
+
+    <ImageView
+        android:id="@+id/andy1"
+        android:layout_width="649dp"
+        android:layout_height="373dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/andy" />
 </androidx.constraintlayout.widget.ConstraintLayout>
